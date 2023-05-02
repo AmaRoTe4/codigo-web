@@ -11,14 +11,12 @@ export default function Temas(){
             .then(response => response.json())
             .then(data => {
                 setTemas(data)
-                console.log(data)
             });
     },[])
 
     return (
         <div className={styles.containerTemas}>
-            <h2>Temas</h2>
-            
+            <h2>Temas</h2>            
             {
                 temas.map((n , i) => 
                     <TemaIndividual key={i} tema={n} />

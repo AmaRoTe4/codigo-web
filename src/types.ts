@@ -1,13 +1,14 @@
 export interface Tema {
     name: string,
     concepto :string,
-    documentacion: Link[],
-    aprender: Link[],
+    documentacion: LinkData[],
+    aprender: LinkData[],
     jerarquia: number,
     color: string
 }
 
-export interface Link{
+export interface LinkData{
     link: string;
     jerarquia: number;
+    name?: string;
 }

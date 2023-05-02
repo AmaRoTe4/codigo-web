@@ -21,4 +21,15 @@ body::-webkit-scrollbar{
     display: none;
 }
 
+body.scroll {
+  transform: translateY(30px);
+  opacity: 0;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+body.scroll.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
 /* colores */

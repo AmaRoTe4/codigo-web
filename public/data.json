@@ -4,13 +4,13 @@
         "concepto" :"",
         "documentacion": [
             {
-                "links": "https://developer.mozilla.org/es/docs/Web/HTML",
+                "link": "https://developer.mozilla.org/es/docs/Web/HTML",
                 "jerarquia": 1
             }
         ],
         "aprender": [
             {
-                "links": "",
+                "link": "",
                 "jerarquia": 1
             }
         ],
@@ -22,13 +22,13 @@
         "concepto" :"",
         "documentacion": [
             {
-                "links": "https://developer.mozilla.org/es/docs/Web/CSS",
+                "link": "https://developer.mozilla.org/es/docs/Web/CSS",
                 "jerarquia": 1
             }
         ],
         "aprender": [
             {
-                "links": "",
+                "link": "",
                 "jerarquia": 1
             }
         ],
@@ -40,13 +40,13 @@
         "concepto" :"",
         "documentacion": [
             {
-                "links": "https://developer.mozilla.org/es/docs/Web/JavaScript",
+                "link": "https://developer.mozilla.org/es/docs/Web/JavaScript",
                 "jerarquia": 1
             }
         ],
         "aprender": [
             {
-                "links": "",
+                "link": "",
                 "jerarquia": 1
             }
         ],
@@ -58,13 +58,13 @@
         "concepto" :"",
         "documentacion": [
             {
-                "links": "https://nodejs.org/es/docs/",
+                "link": "https://nodejs.org/es/docs/",
                 "jerarquia": 1
             }
         ],
         "aprender": [
             {
-                "links": "",
+                "link": "",
                 "jerarquia": 1
             }
         ],
@@ -76,13 +76,13 @@
         "concepto" :"",
         "documentacion": [
             {
-                "links": "https://www.typescriptlang.org/docs/",
+                "link": "https://www.typescriptlang.org/docs/",
                 "jerarquia": 1
             }
         ],
         "aprender": [
             {
-                "links": "",
+                "link": "",
                 "jerarquia": 1
             }
         ],
@@ -94,13 +94,13 @@
         "concepto" :"",
         "documentacion": [
             {
-                "links": "https://www.php.net/manual/es/",
+                "link": "https://www.php.net/manual/es/",
                 "jerarquia": 1
             }
         ],
         "aprender": [
             {
-                "links": "",
+                "link": "",
                 "jerarquia": 1
             }
         ],
@@ -112,13 +112,13 @@
         "concepto" :"",
         "documentacion": [
             {
-                "links": "https://dev.mysql.com/doc/",
+                "link": "https://dev.mysql.com/doc/",
                 "jerarquia": 1
             }
         ],
         "aprender": [
             {
-                "links": "",
+                "link": "",
                 "jerarquia": 1
             }
         ],
@@ -130,13 +130,13 @@
         "concepto" :"",
         "documentacion": [
             {
-                "links": "https://docs.mongodb.com/",
+                "link": "https://docs.mongodb.com/",
                 "jerarquia": 1
             }
         ],
         "aprender": [
             {
-                "links": "",
+                "link": "",
                 "jerarquia": 1
             }
         ],
