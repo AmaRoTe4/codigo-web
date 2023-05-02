@@ -1,0 +1,17 @@
+.bodyNavBar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px white;
+    background-color: hsla(0, 0%, 100%, 0.200);
+    /*position: fixed;*/
+}
+
+.bodyNavBar h2{
+    padding: 10px;
+    color: var(--color-text);
+    font-size: 20px;
+    text-align: center;
+}
+

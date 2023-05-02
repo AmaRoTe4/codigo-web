@@ -1,0 +1,146 @@
+[
+    {
+        "name": "HTML",
+        "concepto" :"",
+        "documentacion": [
+            {
+                "links": "https://developer.mozilla.org/es/docs/Web/HTML",
+                "jerarquia": 1
+            }
+        ],
+        "aprender": [
+            {
+                "links": "",
+                "jerarquia": 1
+            }
+        ],
+        "jerarquia": 1,
+        "color": "#ED6115"
+    },
+    {
+        "name": "CSS",
+        "concepto" :"",
+        "documentacion": [
+            {
+                "links": "https://developer.mozilla.org/es/docs/Web/CSS",
+                "jerarquia": 1
+            }
+        ],
+        "aprender": [
+            {
+                "links": "",
+                "jerarquia": 1
+            }
+        ],
+        "jerarquia": 1,
+        "color": "#1572B6"
+    },
+    {
+        "name": "Javascript",
+        "concepto" :"",
+        "documentacion": [
+            {
+                "links": "https://developer.mozilla.org/es/docs/Web/JavaScript",
+                "jerarquia": 1
+            }
+        ],
+        "aprender": [
+            {
+                "links": "",
+                "jerarquia": 1
+            }
+        ],
+        "jerarquia": 1,
+        "color": "#F7DF1E"
+    },
+    {
+        "name": "Node",
+        "concepto" :"",
+        "documentacion": [
+            {
+                "links": "https://nodejs.org/es/docs/",
+                "jerarquia": 1
+            }
+        ],
+        "aprender": [
+            {
+                "links": "",
+                "jerarquia": 1
+            }
+        ],
+        "jerarquia": 1,
+        "color": "#68A063"
+    },
+    {
+        "name": "Typescript",
+        "concepto" :"",
+        "documentacion": [
+            {
+                "links": "https://www.typescriptlang.org/docs/",
+                "jerarquia": 1
+            }
+        ],
+        "aprender": [
+            {
+                "links": "",
+                "jerarquia": 1
+            }
+        ],
+        "jerarquia": 1,
+        "color": "#007ACC"
+    },
+    {
+        "name": "PHP",
+        "concepto" :"",
+        "documentacion": [
+            {
+                "links": "https://www.php.net/manual/es/",
+                "jerarquia": 1
+            }
+        ],
+        "aprender": [
+            {
+                "links": "",
+                "jerarquia": 1
+            }
+        ],
+        "jerarquia": 1,
+        "color": "#787CB5"
+    },
+    {
+        "name": "MySql",
+        "concepto" :"",
+        "documentacion": [
+            {
+                "links": "https://dev.mysql.com/doc/",
+                "jerarquia": 1
+            }
+        ],
+        "aprender": [
+            {
+                "links": "",
+                "jerarquia": 1
+            }
+        ],
+        "jerarquia": 1,
+        "color": "#4479A1"
+    },
+    {
+        "name": "Mongo",
+        "concepto" :"",
+        "documentacion": [
+            {
+                "links": "https://docs.mongodb.com/",
+                "jerarquia": 1
+            }
+        ],
+        "aprender": [
+            {
+                "links": "",
+                "jerarquia": 1
+            }
+        ],
+        "jerarquia": 1,
+        "color": "#589636"
+    }
+]
