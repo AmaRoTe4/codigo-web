@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
 interface Props {
-    links: LinkData[]
+    links: LinkData[];
     color: string;
     tema: string;
     vista: boolean;
@@ -27,13 +27,13 @@ export default function CuadroDeLinks({ links, color, tema, vista }: Props) {
                 style={{ backgroundColor: color }}
             >
                 <h4>Links {tema}</h4>
-                {links.length > 0 &&
+                {links.length > 0 && links[0].link !== "" &&
                     <Link href={links[0].link} target="_blank">
                         Documentación Recomendada
                     </Link>
                 }
-                {links.length > 1 &&
-                    <Link href="http://" target="_blank">
+                {links.length > 1 && links[1].link !== "" &&
+                    <Link href={links[1].link} target="_blank">
                         Aprender
                     </Link>
                 }

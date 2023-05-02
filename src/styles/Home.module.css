@@ -50,3 +50,18 @@
   align-items:center;
   height: 60vh;
 }
+
+@media (min-width: 768px) {
+  .containerIndex main{
+    height: 25vh;
+  }
+  
+  .containerIndex main h1{
+    max-width: 85%;
+    font-size: 28px;
+  }
+  
+  .containerIndex aside input{
+    width: 80%;
+  }
+}

@@ -16,10 +16,10 @@ export default function TemaIndividual({tema}:Props){
             <CuadroDeLinks 
                 tema={tema.name} 
                 color={tema.color} 
-                links={[tema.documentacion[0]]} 
+                links={[tema?.documentacion[0] , tema?.aprender[0]]} 
                 vista={vista}
             />}
-            <div
+            <article
                 //data-aos="fade-right"
                 className={styles.TemaInd} 
                 style={{backgroundColor: `${tema.color}`}}
@@ -28,7 +28,7 @@ export default function TemaIndividual({tema}:Props){
                 <h3>
                     {tema.name}
                 </h3>
-            </div>
+            </article>
         </>
     )
 }

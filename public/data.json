@@ -10,6 +10,16 @@
         ],
         "aprender": [
             {
+                "link": "https://youtu.be/MJkdaVFHrto",
+                "jerarquia": 1
+            },
+            {
+                "link": "https://youtu.be/XqFR2lqBYPs",
+                "jerarquia": 1
+            }
+        ],
+        "practicar": [
+            {
                 "link": "",
                 "jerarquia": 1
             }
@@ -27,6 +37,16 @@
             }
         ],
         "aprender": [
+            {
+                "link": "https://youtu.be/wZniZEbPAzk",
+                "jerarquia": 1
+            },
+            {
+                "link": "https://youtu.be/XqFR2lqBYPs",
+                "jerarquia": 1
+            }
+        ],
+        "practicar": [
             {
                 "link": "",
                 "jerarquia": 1
@@ -46,6 +66,12 @@
         ],
         "aprender": [
             {
+                "link": "https://youtu.be/ivdTnPl1ND0",
+                "jerarquia": 1
+            }
+        ],
+        "practicar": [
+            {
                 "link": "",
                 "jerarquia": 1
             }
@@ -54,7 +80,7 @@
         "color": "#F7DF1E"
     },
     {
-        "name": "Node",
+        "name": "Node JS",
         "concepto" :"",
         "documentacion": [
             {
@@ -63,6 +89,16 @@
             }
         ],
         "aprender": [
+            {
+                "link": "https://youtu.be/1hpc70_OoAg",
+                "jerarquia": 1
+            },
+            {
+                "link": "https://youtu.be/i3OdKwuBjeM",
+                "jerarquia": 1
+            }
+        ],
+        "practicar": [
             {
                 "link": "",
                 "jerarquia": 1
@@ -82,6 +118,16 @@
         ],
         "aprender": [
             {
+                "link": "https://youtu.be/-xDZwb-PY0M",
+                "jerarquia": 1
+            },
+            {
+                "link": "https://youtu.be/YKclM8IxkfI",
+                "jerarquia": 1
+            }
+        ],
+        "practicar": [
+            {
                 "link": "",
                 "jerarquia": 1
             }
@@ -99,6 +145,12 @@
             }
         ],
         "aprender": [
+            {
+                "link": "https://youtu.be/nCB1gEkRZ1g",
+                "jerarquia": 1
+            }
+        ],
+        "practicar": [
             {
                 "link": "",
                 "jerarquia": 1
@@ -118,6 +170,16 @@
         ],
         "aprender": [
             {
+                "link": "https://youtu.be/_8MjEhfKRbI",
+                "jerarquia": 1
+            },
+            {
+                "link": "https://youtu.be/uUdKAYl-F7g",
+                "jerarquia": 1
+            }
+        ],
+        "practicar": [
+            {
                 "link": "",
                 "jerarquia": 1
             }
@@ -126,7 +188,7 @@
         "color": "#4479A1"
     },
     {
-        "name": "Mongo",
+        "name": "Mongo DB",
         "concepto" :"",
         "documentacion": [
             {
@@ -135,6 +197,12 @@
             }
         ],
         "aprender": [
+            {
+                "link": "",
+                "jerarquia": 1
+            }
+        ],
+        "practicar": [
             {
                 "link": "",
                 "jerarquia": 1

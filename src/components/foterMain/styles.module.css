@@ -1,17 +1,28 @@
-.bodyOfFooter{
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+.bodyOfFooter {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
-.bodyOfFooter h5{
-    margin: 0px 20px;
-    text-align: justify;
+.bodyOfFooter h5 {
+  margin: 0px 20px;
+  text-align: justify;
 }
 
-.bodyOfFooter p{
-    margin: 30px 20px 10px 20px;
-    text-align: center;
-    color: white;
+.bodyOfFooter p {
+  margin: 30px 20px 10px 20px;
+  text-align: center;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .bodyOfFooter{
+    height: 100vh;
+  }
+  
+    .bodyOfFooter h5 {
+    margin: 0px 70px;
+    font-size: 20px;
+  }
 }

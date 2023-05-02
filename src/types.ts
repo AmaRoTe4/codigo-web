@@ -3,6 +3,7 @@ export interface Tema {
     concepto :string,
     documentacion: LinkData[],
     aprender: LinkData[],
+    practicar: LinkData[],
     jerarquia: number,
     color: string
 }

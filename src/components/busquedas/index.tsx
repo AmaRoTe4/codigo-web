@@ -4,7 +4,7 @@ import efectos from '../../styles/efectos.module.css';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { ObtenerTodosTemas } from '@/functions/Temas';
-import obtenerLinksDocumentacion from '@/functions/links/todosLosLinksDocumentacion';
+import AllLinks from '@/functions/links/todosLosLinks';
 
 interface Props {
     text: string;
@@ -25,7 +25,7 @@ export default function Busquedas({ text }: Props) {
     }, [text])
     
     const obtenerLinks = async () => {
-        const response:LinkData[] = await obtenerLinksDocumentacion()
+        const response:LinkData[] = await AllLinks()
         setTodosLosLinks(response)
     }
 
@@ -54,7 +54,6 @@ export default function Busquedas({ text }: Props) {
                         key={i} 
                         href={n.link}
                         target="_blank"
-                        onClick={e => {e.preventDefault();}}
                     >
                         {n?.name}
                     </Link>
