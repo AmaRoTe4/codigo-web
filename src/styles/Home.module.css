@@ -14,7 +14,7 @@
 }
 
 .containerIndex main{
-  height: 25vh;
+  height: 150px;
   width: 100%;
   display: flex;
   justify-content:center;
@@ -23,7 +23,7 @@
 
 .containerIndex main h1{
   color: var(--color-text);
-  max-width: 85%;
+  max-width: 90%;
   text-align: center;
   font-size: 16px;
 }
@@ -48,7 +48,7 @@
   flex-direction: column;
   justify-content:center;
   align-items:center;
-  height: 60vh;
+  height: 400px;
 }
 
 @media (min-width: 768px) {
@@ -63,5 +63,9 @@
   
   .containerIndex aside input{
     width: 80%;
+  }
+
+  .containerIndex span{
+    height: 60vh;
   }
 }

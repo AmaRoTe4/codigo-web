@@ -1,32 +1,11 @@
-import { LinkData, Tema } from "@/types";
-import { ObtenerTodosTemas } from "../Temas";
+import { LinkIndividual } from "@/types";
 
 //@ts-ignore
-const obtenerLinks = async ():LinkData[] => {
-    const temas: Tema[] = await ObtenerTodosTemas();
-    let links: LinkData[] = []
-
-    if (temas === undefined) return [];
-
-    temas.map(n =>
-        {
-            n.documentacion.map(m => {
-                m.name = 'Documentacion ' + n.name;
-                links.push(m)
-            });
-        }
-    );
-
-    temas.map(n => 
-        {
-            n.aprender.map(m => {
-                m.name = 'Curso de ' + n.name;
-                links.push(m)
-            })
-        }
-    )
-
-    return links
+export const todosLosLinksIndividual = async ():LinkIndividual[] => {
+    const temas:LinkIndividual[] = await fetch('/links.json')
+        .then(response => response.json())
+        .then(data => {
+            return data
+    });
+    return temas.sort((link1, link2) => link1.jerarquia - link2.jerarquia);;
 }
-
-export default obtenerLinks

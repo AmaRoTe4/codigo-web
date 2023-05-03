@@ -1,0 +1,692 @@
+[
+  {
+    "id": 1,
+    "descripcion": "Documentacion de Mozilla sobre HTML",
+    "palabras_relacionadas": [
+      "Documentacion",
+      "Mozilla",
+      "desarrollo web",
+      "HTML",
+      "HTML5"
+    ],
+    "tipo": "HTML",
+    "link": "https://developer.mozilla.org/es/docs/Web/HTML",
+    "jerarquia": 1
+  },
+  {
+    "id": 2,
+    "descripcion": "Tutorial de HTML en YouTube por Hola Mundo",
+    "palabras_relacionadas": [
+      "tutorial",
+      "curso",
+      "desarrollo web",
+      "HTML",
+      "HTML5",
+      "YouTube",
+      "Nicolás Schürmann Lindemann",
+      "hola mundo",
+      "aprender",
+      "video"
+    ],
+    "tipo": "HTML",
+    "link": "https://youtu.be/MJkdaVFHrto",
+    "jerarquia": 1
+  },
+  {
+    "id": 3,
+    "descripcion": "Documentacion de Mozilla sobre CSS",
+    "palabras_relacionadas": [
+      "Documentacion",
+      "Desarrollo web",
+      "CSS",
+      "styles",
+      "mozilla"
+    ],
+    "tipo": "CSS",
+    "link": "https://developer.mozilla.org/es/docs/Web/CSS",
+    "jerarquia": 1
+  },
+  {
+    "id": 4,
+    "descripcion": "Tutorial de CSS en YouTube por Hola Mundo",
+    "palabras_relacionadas": [
+      "Tutorial",
+      "Hola mundo",
+      "Nicolás Schürmann Lindemann",
+      "Curso",
+      "YouTube",
+      "Aprender",
+      "Video",
+      "Desarrollo web",
+      "CSS",
+      "styles"
+    ],
+    "tipo": "CSS",
+    "link": "https://youtu.be/wZniZEbPAzk",
+    "jerarquia": 1
+  },
+  {
+    "id": 5,
+    "descripcion": "Tutorial de HTML y CSS en YouTube por FreeCodeCamp",
+    "palabras_relacionadas": [
+      "Tutorial",
+      "FreeCodeCamp",
+      "Curso",
+      "YouTube",
+      "Aprender",
+      "Video",
+      "Desarrollo web",
+      "CSS",
+      "styles",
+      "HTML"
+    ],
+    "tipo": "CSS",
+    "link": "https://youtu.be/XqFR2lqBYPs",
+    "jerarquia": 1
+  },
+  {
+    "id": 6,
+    "descripcion": "Documentacion de Mozilla sobre Javascript",
+    "palabras_relacionadas": [
+      "Documentacion",
+      "Desarrollo web",
+      "Javascript",
+      "Mozilla",
+      "JS"
+    ],
+    "tipo": "Javascript",
+    "link": "https://developer.mozilla.org/es/docs/Web/JavaScript",
+    "jerarquia": 1
+  },
+  {
+    "id": 7,
+    "descripcion": "Tutorial de Javascript en YouTube por FreeCodeCamp",
+    "palabras_relacionadas": [
+      "Tutorial",
+      "FreeCodeCamp",
+      "Curso",
+      "YouTube",
+      "Aprender",
+      "Video",
+      "Desarrollo web",
+      "Javascript",
+      "JS"
+    ],
+    "tipo": "Javascript",
+    "link": "https://youtu.be/ivdTnPl1ND0",
+    "jerarquia": 1
+  },
+  {
+    "id": 8,
+    "descripcion": "Documentacion oficial sobre Node JS",
+    "palabras_relacionadas": [
+      "Documentacion",
+      "Desarrollo web",
+      "Node JS",
+      "oficial"
+    ],
+    "tipo": "Node JS",
+    "link": "https://nodejs.org/es/docs/",
+    "jerarquia": 1
+  },
+  {
+    "id": 9,
+    "descripcion": "Tutorial de Node JS en YouTube por FreeCodeCamp",
+    "palabras_relacionadas": [
+      "Tutorial",
+      "FreeCodeCamp",
+      "Curso",
+      "YouTube",
+      "Aprender",
+      "Video",
+      "Desarrollo web",
+      "Node JS"
+    ],
+    "tipo": "Node JS",
+    "link": "https://youtu.be/1hpc70_OoAg",
+    "jerarquia": 1
+  },
+  {
+    "id": 10,
+    "descripcion": "Tutorial de Node JS en YouTube por Fazt",
+    "palabras_relacionadas": [
+      "Tutorial",
+      "Fazt",
+      "Curso",
+      "YouTube",
+      "Aprender",
+      "Video",
+      "Desarrollo web",
+      "Node JS"
+    ],
+    "tipo": "Node JS",
+    "link": "https://youtu.be/i3OdKwuBjeM",
+    "jerarquia": 1
+  },
+  {
+    "id": 11,
+    "descripcion": "Documentacion oficial sobre Typescript",
+    "palabras_relacionadas": [
+      "Documentacion",
+      "Desarrollo web",
+      "Typescript",
+      "oficial"
+    ],
+    "tipo": "Typescript",
+    "link": "https://www.typescriptlang.org/docs/",
+    "jerarquia": 1
+  },
+  {
+    "id": 12,
+    "descripcion": "Tutorial de Typescript en YouTube por Hola Mundo",
+    "palabras_relacionadas": [
+      "Tutorial",
+      "Nicolás Schürmann Lindemann",
+      "hola mundo",
+      "Curso",
+      "YouTube",
+      "Aprender",
+      "Video",
+      "Desarrollo web",
+      "Typescript"
+    ],
+    "tipo": "Typescript",
+    "link": "https://youtu.be/-xDZwb-PY0M",
+    "jerarquia": 1
+  },
+  {
+    "id": 13,
+    "descripcion": "Tutorial de Typescript en YouTube por Midudev",
+    "palabras_relacionadas": [
+      "Tutorial",
+      "midulive",
+      "midudev",
+      "miguel angel duran",
+      "Curso",
+      "YouTube",
+      "Aprender",
+      "Video",
+      "Desarrollo web",
+      "Typescript"
+    ],
+    "tipo": "Typescript",
+    "link": "https://youtu.be/YKclM8IxkfI",
+    "jerarquia": 1
+  },
+  {
+    "id": 15,
+    "descripcion": "Documentacion oficial sobre PHP",
+    "palabras_relacionadas": [
+      "Documentacion",
+      "Desarrollo web",
+      "PHP",
+      "oficial"
+    ],
+    "tipo": "PHP",
+    "link": "https://www.php.net/manual/es/",
+    "jerarquia": 1
+  },
+  {
+    "id": 16,
+    "descripcion": "Tutorial de Develoteca en YouTube por PHP",
+    "palabras_relacionadas": [
+      "Tutorial",
+      "Develoteca",
+      "Curso",
+      "YouTube",
+      "Aprender",
+      "Video",
+      "Desarrollo web",
+      "PHP"
+    ],
+    "tipo": "PHP",
+    "link": "https://youtu.be/nCB1gEkRZ1g",
+    "jerarquia": 1
+  },
+  {
+    "id": 17,
+    "descripcion": "Documentacion oficial de MySql",
+    "palabras_relacionadas": [
+      "Documentacion",
+      "Desarrollo web",
+      "MySql",
+      "oficial"
+    ],
+    "tipo": "MySql",
+    "link": "https://dev.mysql.com/doc/",
+    "jerarquia": 1
+  },
+  {
+    "id": 18,
+    "descripcion": "Tutorial de MySQL en YouTube por ATL Academy",
+    "palabras_relacionadas": [
+      "Tutorial",
+      "ATL Academy",
+      "Lucas Moy",
+      "Curso",
+      "YouTube",
+      "Aprender",
+      "Video",
+      "Desarrollo web",
+      "MySql"
+    ],
+    "tipo": "MySql",
+    "link": "https://youtu.be/_8MjEhfKRbI",
+    "jerarquia": 1
+  },
+  {
+    "id": 19,
+    "descripcion": "Tutorial de MySQL en YouTube por Hola Mundo",
+    "palabras_relacionadas": [
+      "Tutorial",
+      "Hola Mundo",
+      "Nicolás Schürmann Lindemann",
+      "Curso",
+      "YouTube",
+      "Aprender",
+      "Video",
+      "Desarrollo web",
+      "MySql"
+    ],
+    "tipo": "MySql",
+    "link": "https://youtu.be/uUdKAYl-F7g",
+    "jerarquia": 1
+  },
+  {
+    "id": 20,
+    "descripcion": "Documentacion oficial sobre Mongo DB",
+    "palabras_relacionadas": [
+      "Documentacion",
+      "Desarrollo web",
+      "Mongo DB",
+      "oficial"
+    ],
+    "tipo": "Mongo DB",
+    "link": "https://docs.mongodb.com/",
+    "jerarquia": 1
+  },
+  {
+    "id": 21,
+    "descripcion": "Formas Adaptables",
+    "palabras_relacionadas": [
+      "Formas Adaptables",
+      "Desarrollo web",
+      "CSS",
+      "styles",
+      "estilos"
+    ],
+    "tipo": "CSS",
+    "link": "https://bennettfeely.com/clippy/",
+    "jerarquia": 50
+  },
+  {
+    "id": 22,
+    "descripcion": "Biblioteca de CSS bootswatch",
+    "palabras_relacionadas": [
+      "Biblioteca",
+      "bootswatch",
+      "Fromework",
+      "Desarrollo web",
+      "CSS",
+      "styles",
+      "estilos"
+    ],
+    "tipo": "CSS",
+    "link": "https://bootswatch.com/",
+    "jerarquia": 20
+  },
+  {
+    "id": 23,
+    "descripcion": "Biblioteca de CSS Tailwindcss",
+    "palabras_relacionadas": [
+      "Biblioteca",
+      "tailwindcss",
+      "Fromework",
+      "Desarrollo web",
+      "CSS",
+      "styles",
+      "estilos"
+    ],
+    "tipo": "CSS",
+    "link": "https://tailwindcss.com/",
+    "jerarquia": 1
+  },
+  {
+    "id": 24,
+    "descripcion": "Biblioteca de CSS Bootstrap",
+    "palabras_relacionadas": [
+      "Biblioteca",
+      "bootstrap",
+      "Fromework",
+      "Desarrollo web",
+      "CSS",
+      "styles",
+      "estilos"
+    ],
+    "tipo": "CSS",
+    "link": "https://getbootstrap.com/",
+    "jerarquia": 1
+  },
+  {
+    "id": 25,
+    "descripcion": "Biblioteca de CSS Pico",
+    "palabras_relacionadas": [
+      "Biblioteca",
+      "picocss",
+      "Fromework",
+      "Desarrollo web",
+      "CSS",
+      "styles",
+      "estilos"
+    ],
+    "tipo": "CSS",
+    "link": "https://picocss.com/",
+    "jerarquia": 5
+  },
+  {
+    "id": 26,
+    "descripcion": "Componentes CSS Headless",
+    "palabras_relacionadas": [
+      "headless",
+      "componentes",
+      "Desarrollo web",
+      "CSS",
+      "styles",
+      "estilos"
+    ],
+    "tipo": "CSS",
+    "link": "https://headlessui.com/",
+    "jerarquia": 20
+  },
+  {
+    "id": 27,
+    "descripcion": "Efectos CSS con Open-Props",
+    "palabras_relacionadas": [
+      "animaciones",
+      "efectos",
+      "general",
+      "open-props",
+      "Desarrollo web",
+      "CSS",
+      "styles",
+      "estilos"
+    ],
+    "tipo": "CSS",
+    "link": "https://open-props.style/",
+    "jerarquia": 25
+  },
+  {
+    "id": 28,
+    "descripcion": "Efectos de Scroll con AOS",
+    "palabras_relacionadas": [
+      "efectos",
+      "animaciones",
+      "Scroll",
+      "aos",
+      "Desarrollo web",
+      "CSS",
+      "styles",
+      "estilos"
+    ],
+    "tipo": "CSS",
+    "link": "https://michalsnik.github.io/aos/",
+    "jerarquia": 20
+  },
+  {
+    "id": 29,
+    "descripcion": "Efectos de transicion CSS con Transition.style",
+    "palabras_relacionadas": [
+      "transition",
+      "animaciones",
+      "efectos",
+      "Desarrollo web",
+      "CSS",
+      "styles",
+      "estilos"
+    ],
+    "tipo": "CSS",
+    "link": "https://www.transition.style/",
+    "jerarquia": 20
+  },
+  {
+    "id": 30,
+    "descripcion": "Efectos CSS con XsGames",
+    "palabras_relacionadas": [
+      "XsGames",
+      "animaciones",
+      "efectos",
+      "Desarrollo web",
+      "CSS",
+      "styles",
+      "estilos"
+    ],
+    "tipo": "CSS",
+    "link": "https://xsgames.co/animatiss/",
+    "jerarquia": 20
+  },
+  {
+    "id": 31,
+    "descripcion": "Animaciones CSS con Animate.style",
+    "palabras_relacionadas": [
+      "animaciones",
+      "efectos",
+      "Desarrollo web",
+      "CSS",
+      "styles",
+      "estilos"
+    ],
+    "tipo": "CSS",
+    "link": "https://animate.style/",
+    "jerarquia": 25
+  },
+  {
+    "id": 32,
+    "descripcion": "Carteles con Sweetalert2",
+    "palabras_relacionadas": [
+      "sweetalert2",
+      "carteles",
+      "efectos",
+      "animaciones",
+      "Desarrollo web",
+      "CSS",
+      "styles",
+      "estilos"
+    ],
+    "tipo": "CSS",
+    "link": "https://sweetalert2.github.io/",
+    "jerarquia": 20
+  },
+  {
+    "id": 33,
+    "descripcion": "Todos los Caracteres HTML",
+    "palabras_relacionadas": [
+      "carracteres",
+      "Desarrollo web",
+      "html5",
+      "html",
+      "general"
+    ],
+    "tipo": "HTML",
+    "link": "https://www.manualweb.net/html/entidades-html/",
+    "jerarquia": 50
+  },
+  {
+    "id": 34,
+    "descripcion": "Iconos y Svg con Tablericons",
+    "palabras_relacionadas": [
+      "iconos",
+      "Tablericons",
+      "svg",
+      "Desarrollo web",
+      "CSS"
+    ],
+    "tipo": "Icono",
+    "link": "https://tablericons.com/",
+    "jerarquia": 20
+  },
+  {
+    "id": 35,
+    "descripcion": "Iconos Svg y Demas con Fontawesome",
+    "palabras_relacionadas": [
+      "iconos",
+      "fontawesome",
+      "general",
+      "svg",
+      "Desarrollo web",
+      "CSS"
+    ],
+    "tipo": "Icono",
+    "link": "https://fontawesome.com/",
+    "jerarquia": 1
+  },
+  {
+    "id": 36,
+    "descripcion": "Iconos Svg y Demas con Iconfinder",
+    "palabras_relacionadas": [
+      "iconos",
+      "iconfinder",
+      "general",
+      "svg",
+      "Desarrollo web",
+      "CSS"
+    ],
+    "tipo": "Icono",
+    "link": "https://www.iconfinder.com/",
+    "jerarquia": 20
+  },
+  {
+    "id": 37,
+    "descripcion": "Iconos Svg y Demas con Flaticon",
+    "palabras_relacionadas": [
+      "iconos",
+      "Flaticon",
+      "svg",
+      "general",
+      "Desarrollo web",
+      "CSS"
+    ],
+    "tipo": "Icono",
+    "link": "https://www.flaticon.es/",
+    "jerarquia": 10
+  },
+  {
+    "id": 38,
+    "descripcion": "Iconos y Svg con Icon-Icons",
+    "palabras_relacionadas": [
+      "Icon-icons",
+      "iconos",
+      "svg",
+      "Desarrollo web",
+      "CSS"
+    ],
+    "tipo": "Icono",
+    "link": "https://icon-icons.com/",
+    "jerarquia": 10
+  },
+
+  {
+    "id": 39,
+    "descripcion": "Compresor de Imagenes con Img2go",
+    "palabras_relacionadas": [
+      "img2go",
+      "compresor de imagenes",
+      "Desarrollo web",
+      "Fotos",
+      "CSS",
+      "styles",
+      "imagenes",
+      "estilos"
+    ],
+    "tipo": "Fotos",
+    "link": "https://www.img2go.com/compress-image",
+    "jerarquia": 20
+  },
+  {
+    "id": 40,
+    "descripcion": "Quitar fondo de una imagen",
+    "palabras_relacionadas": [
+      "fondo",
+      "remover",
+      "quitar",
+      "sacar",
+      "Desarrollo web",
+      "Fotos",
+      "CSS",
+      "imagenes",
+      "styles",
+      "estilos"
+    ],
+    "tipo": "Fotos",
+    "link": "https://www.remove.bg/es",
+    "jerarquia": 20
+  },
+  {
+    "id": 41,
+    "descripcion": "Fotos en general con Freepik",
+    "palabras_relacionadas": [
+      "Freepik",
+      "general",
+      "Desarrollo web",
+      "Fotos",
+      "CSS",
+      "styles",
+      "imagenes",
+      "estilos"
+    ],
+    "tipo": "Fotos",
+    "link": "https://www.freepik.es/",
+    "jerarquia": 50
+  },
+  {
+    "id": 42,
+    "descripcion": "Fotos en general con Pixabay",
+    "palabras_relacionadas": [
+      "general",
+      "pixabay",
+      "Desarrollo web",
+      "Fotos",
+      "CSS",
+      "styles",
+      "imagenes",
+      "estilos"
+    ],
+    "tipo": "Fotos",
+    "link": "https://pixabay.com/es/",
+    "jerarquia": 50
+  },
+  {
+    "id": 43,
+    "descripcion": "Mejorar calidad de una imagen con Let's Enhance",
+    "palabras_relacionadas": [
+      "Let's Enhance",
+      "mejorar",
+      "calidad",
+      "Desarrollo web",
+      "CSS",
+      "imagenes",
+      "Fotos",
+      "styles",
+      "estilos"
+    ],
+    "tipo": "Fotos",
+    "link": "https://letsenhance.io/",
+    "jerarquia": 20
+  },
+  {
+    "id": 44,
+    "descripcion": "Mejorar calidad de una imagen con Picwish",
+    "palabras_relacionadas": [
+      "picwish",
+      "mejorar",
+      "calidad",
+      "Desarrollo web",
+      "Fotos",
+      "styles",
+      "CSS",
+      "estilos"
+    ],
+    "tipo": "Fotos",
+    "link": "https://picwish.com/es/photo-enhancer",
+    "jerarquia": 25
+  }
+]

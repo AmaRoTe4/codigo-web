@@ -1,18 +1,18 @@
-import { LinkData, Tema } from '@/types';
+import { LinkIndividual } from '@/types';
 import styles from './styles.module.css';
 import efectos from '../../styles/efectos.module.css';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
-import { ObtenerTodosTemas } from '@/functions/Temas';
-import AllLinks from '@/functions/links/todosLosLinks';
+import { Filtro } from '@/functions/filtroDeBusqueda';
+import { todosLosLinksIndividual } from '@/functions/links/todosLosLinks';
 
 interface Props {
     text: string;
 }
 
 export default function Busquedas({ text }: Props) {
-    const [todosLosLinks, setTodosLosLinks] = useState<LinkData[]>([])
-    const [linksVista, setLinksVista] = useState<LinkData[]>([])
+    const [todosLosLinks, setTodosLosLinks] = useState<LinkIndividual[]>([])
+    const [linksVista, setLinksVista] = useState<LinkIndividual[]>([])
     const [inicio, setInicio] = useState<boolean>(false)
 
     useEffect(() => {
@@ -21,22 +21,13 @@ export default function Busquedas({ text }: Props) {
     
     useEffect(() => {
         if (text !== "" && !inicio) setInicio(true);
-        setLinksVista(filtroLinks(text))
+        setLinksVista(Filtro(todosLosLinks , text))
     }, [text])
     
     const obtenerLinks = async () => {
-        const response:LinkData[] = await AllLinks()
+        const response:LinkIndividual[] = await todosLosLinksIndividual();
         setTodosLosLinks(response)
     }
-
-    const filtroLinks = (texto:string):LinkData[] => {
-        if(todosLosLinks.length === 0) return [] 
-        let linksRetorno:LinkData[] = todosLosLinks.filter(n => n.name && n.name.toLowerCase().includes(texto.toLowerCase()))
-        
-        if(linksRetorno === undefined) return []
-        return linksRetorno
-    }
-
 
     if(text === "") return <></>
     return (
@@ -55,7 +46,7 @@ export default function Busquedas({ text }: Props) {
                         href={n.link}
                         target="_blank"
                     >
-                        {n?.name}
+                        {n?.descripcion}
                     </Link>
                 )
             }

@@ -1,0 +1,305 @@
+[
+  {
+    "id": 1,
+    "descripcion": "Documentacion de Mozilla sobre HTML",
+    "palabras_relacionadas": [
+      "Documentacion",
+      "Mozilla",
+      "desarrollo web",
+      "HTML",
+      "HTML5"
+    ],
+    "tipo": "HTML",
+    "link": "https://developer.mozilla.org/es/docs/Web/HTML",
+    "jerarquia": 1
+  },
+  {
+    "id": 2,
+    "descripcion": "Tutorial de HTML por Hola Mundo",
+    "palabras_relacionadas": [
+      "tutorial",
+      "curso",
+      "desarrollo web",
+      "HTML",
+      "HTML5",
+      "YouTube",
+      "Nicolás Schürmann Lindemann",
+      "hola mundo",
+      "aprender",
+      "video"
+    ],
+    "tipo": "HTML",
+    "link": "https://youtu.be/MJkdaVFHrto",
+    "jerarquia": 1
+  },
+  {
+    "id": 3,
+    "descripcion": "Documentacion de Mozilla sobre CSS",
+    "palabras_relacionadas": [
+      "Documentacion",
+      "Desarrollo web",
+      "CSS",
+      "mozilla"
+    ],
+    "tipo": "CSS",
+    "link": "https://developer.mozilla.org/es/docs/Web/CSS",
+    "jerarquia": 1
+  },
+  {
+    "id": 4,
+    "descripcion": "Tutorial de CSS en YouTube por Hola Mundo",
+    "palabras_relacionadas": [
+      "Tutorial",
+      "Hola mundo",
+      "Nicolás Schürmann Lindemann",
+      "Curso",
+      "YouTube",
+      "Aprender",
+      "Video",
+      "Desarrollo web",
+      "CSS"
+    ],
+    "tipo": "CSS",
+    "link": "https://youtu.be/wZniZEbPAzk",
+    "jerarquia": 1
+  },
+  {
+    "id": 5,
+    "descripcion": "Tutorial de HTML y CSS en YouTube por FreeCodeCamp",
+    "palabras_relacionadas": [
+      "Tutorial",
+      "FreeCodeCamp",
+      "Curso",
+      "YouTube",
+      "Aprender",
+      "Video",
+      "Desarrollo web",
+      "CSS",
+      "HTML"
+    ],
+    "tipo": "CSS",
+    "link": "https://youtu.be/XqFR2lqBYPs",
+    "jerarquia": 1
+  },
+  {
+    "id": 6,
+    "descripcion": "Documentacion de Mozilla sobre Javascript",
+    "palabras_relacionadas": [
+      "Documentacion",
+      "Desarrollo web",
+      "Javascript",
+      "Mozilla",
+      "JS"
+    ],
+    "tipo": "Javascript",
+    "link": "https://developer.mozilla.org/es/docs/Web/JavaScript",
+    "jerarquia": 1
+  },
+  {
+    "id": 7,
+    "descripcion": "Tutorial de Javascript en YouTube por FreeCodeCamp",
+    "palabras_relacionadas": [
+      "Tutorial",
+      "FreeCodeCamp",
+      "Curso",
+      "YouTube",
+      "Aprender",
+      "Video",
+      "Desarrollo web",
+      "Javascript",
+      "JS"
+    ],
+    "tipo": "Javascript",
+    "link": "https://youtu.be/ivdTnPl1ND0",
+    "jerarquia": 1
+  },
+  {
+    "id": 8,
+    "descripcion": "Documentacion oficial sobre Node JS",
+    "palabras_relacionadas": [
+      "Documentacion",
+      "Desarrollo web",
+      "Node JS",
+      "oficial"
+    ],
+    "tipo": "Node JS",
+    "link": "https://nodejs.org/es/docs/",
+    "jerarquia": 1
+  },
+  {
+    "id": 9,
+    "descripcion": "Tutorial de Node JS en YouTube por FreeCodeCamp",
+    "palabras_relacionadas": [
+      "Tutorial",
+      "FreeCodeCamp",
+      "Curso",
+      "YouTube",
+      "Aprender",
+      "Video",
+      "Desarrollo web",
+      "Node JS"
+    ],
+    "tipo": "Node JS",
+    "link": "https://youtu.be/1hpc70_OoAg",
+    "jerarquia": 1
+  },
+  {
+    "id": 10,
+    "descripcion": "Tutorial de Node JS en YouTube por Fazt",
+    "palabras_relacionadas": [
+      "Tutorial",
+      "Fazt",
+      "Curso",
+      "YouTube",
+      "Aprender",
+      "Video",
+      "Desarrollo web",
+      "Node JS"
+    ],
+    "tipo": "Node JS",
+    "link": "https://youtu.be/i3OdKwuBjeM",
+    "jerarquia": 1
+  },
+  {
+    "id": 11,
+    "descripcion": "Documentacion oficial sobre Typescript",
+    "palabras_relacionadas": [
+      "Documentacion",
+      "Desarrollo web",
+      "Typescript",
+      "oficial"
+    ],
+    "tipo": "Typescript",
+    "link": "https://www.typescriptlang.org/docs/",
+    "jerarquia": 1
+  },
+  {
+    "id": 12,
+    "descripcion": "Tutorial de Typescript en YouTube por Hola Mundo",
+    "palabras_relacionadas": [
+      "Tutorial",
+      "Nicolás Schürmann Lindemann",
+      "hola mundo",
+      "Curso",
+      "YouTube",
+      "Aprender",
+      "Video",
+      "Desarrollo web",
+      "Typescript"
+    ],
+    "tipo": "Typescript",
+    "link": "https://youtu.be/-xDZwb-PY0M",
+    "jerarquia": 1
+  },
+  {
+    "id": 13,
+    "descripcion": "Tutorial de Typescript en YouTube por Midudev",
+    "palabras_relacionadas": [
+      "Tutorial",
+      "midulive",
+      "midudev",
+      "miguel angel duran",
+      "Curso",
+      "YouTube",
+      "Aprender",
+      "Video",
+      "Desarrollo web",
+      "Typescript"
+    ],
+    "tipo": "Typescript",
+    "link": "https://youtu.be/YKclM8IxkfI",
+    "jerarquia": 1
+  },
+  {
+    "id": 15,
+    "descripcion": "Documentacion oficial sobre PHP",
+    "palabras_relacionadas": [
+      "Documentacion",
+      "Desarrollo web",
+      "PHP",
+      "oficial"
+    ],
+    "tipo": "PHP",
+    "link": "https://www.php.net/manual/es/",
+    "jerarquia": 1
+  },
+  {
+    "id": 16,
+    "descripcion": "Tutorial de Develoteca en YouTube por PHP",
+    "palabras_relacionadas": [
+      "Tutorial",
+      "Develoteca",
+      "Curso",
+      "YouTube",
+      "Aprender",
+      "Video",
+      "Desarrollo web",
+      "PHP"
+    ],
+    "tipo": "PHP",
+    "link": "https://youtu.be/nCB1gEkRZ1g",
+    "jerarquia": 1
+  },
+  {
+    "id": 17,
+    "descripcion": "Documentacion oficial de MySql",
+    "palabras_relacionadas": [
+      "Documentacion",
+      "Desarrollo web",
+      "MySql",
+      "oficial"
+    ],
+    "tipo": "MySql",
+    "link": "https://dev.mysql.com/doc/",
+    "jerarquia": 1
+  },
+  {
+    "id": 18,
+    "descripcion": "Tutorial de MySQL en YouTube por ATL Academy",
+    "palabras_relacionadas": [
+      "Tutorial",
+      "ATL Academy",
+      "Lucas Moy",
+      "Curso",
+      "YouTube",
+      "Aprender",
+      "Video",
+      "Desarrollo web",
+      "MySql"
+    ],
+    "tipo": "MySql",
+    "link": "https://youtu.be/_8MjEhfKRbI",
+    "jerarquia": 1
+  },
+  {
+    "id": 19,
+    "descripcion": "Tutorial de MySQL en YouTube por Hola Mundo",
+    "palabras_relacionadas": [
+      "Tutorial",
+      "Hola Mundo",
+      "Nicolás Schürmann Lindemann",
+      "Curso",
+      "YouTube",
+      "Aprender",
+      "Video",
+      "Desarrollo web",
+      "MySql"
+    ],
+    "tipo": "MySql",
+    "link": "https://youtu.be/uUdKAYl-F7g",
+    "jerarquia": 1
+  },
+  {
+    "id": 20,
+    "descripcion": "Documentacion oficial sobre Mongo DB",
+    "palabras_relacionadas": [
+      "Documentacion",
+      "Desarrollo web",
+      "Mongo DB",
+      "oficial"
+    ],
+    "tipo": "Mongo DB",
+    "link": "https://docs.mongodb.com/",
+    "jerarquia": 1
+  }
+]
