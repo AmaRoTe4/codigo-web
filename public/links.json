@@ -324,6 +324,7 @@
     "descripcion": "Biblioteca de CSS bootswatch",
     "palabras_relacionadas": [
       "Biblioteca",
+      "libreria",
       "bootswatch",
       "Fromework",
       "Desarrollo web",
@@ -340,6 +341,7 @@
     "descripcion": "Biblioteca de CSS Tailwindcss",
     "palabras_relacionadas": [
       "Biblioteca",
+      "libreria",
       "tailwindcss",
       "Fromework",
       "Desarrollo web",
@@ -356,6 +358,7 @@
     "descripcion": "Biblioteca de CSS Bootstrap",
     "palabras_relacionadas": [
       "Biblioteca",
+      "libreria",
       "bootstrap",
       "Fromework",
       "Desarrollo web",
@@ -372,6 +375,7 @@
     "descripcion": "Biblioteca de CSS Pico",
     "palabras_relacionadas": [
       "Biblioteca",
+      "libreria",
       "picocss",
       "Fromework",
       "Desarrollo web",
@@ -688,5 +692,41 @@
     "tipo": "Fotos",
     "link": "https://picwish.com/es/photo-enhancer",
     "jerarquia": 25
+  },
+  {
+    "id": 45,
+    "descripcion": "Colección de estilos simples de CSS Water.css",
+    "palabras_relacionadas": [
+      "Biblioteca",
+      "libreria",
+      "coleccion de estilos",
+      "Water.css",
+      "Fromework",
+      "Desarrollo web",
+      "CSS",
+      "styles",
+      "estilos"
+    ],
+    "tipo": "CSS",
+    "link": "https://watercss.kognise.dev/",
+    "jerarquia": 10
+  },
+  {
+    "id": 46,
+    "descripcion": "Colección de estilos simples de CSS Bolt.css",
+    "palabras_relacionadas": [
+      "Biblioteca",
+      "libreria",
+      "coleccion de estilos",
+      "Bolt.css",
+      "Fromework",
+      "Desarrollo web",
+      "CSS",
+      "styles",
+      "estilos"
+    ],
+    "tipo": "CSS",
+    "link": "https://boltcss.com/",
+    "jerarquia": 10
   }
 ]

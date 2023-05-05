@@ -12,7 +12,10 @@
     color: white;
 }
 
-.containerTemas section {
+.containerTemas ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -20,13 +23,14 @@
 }
 
 .TemaInd{
+    list-style: none;
     display: flex;
     justify-content:center;
     align-items:center;
-    height: 10vh;
     width: 90%;
     border: solid 1px white;
     margin: 2vh 0;
+    padding: 20px;
 }
 
 .TemaInd:hover{
@@ -41,15 +45,14 @@
 }
 
 @media (min-width: 768px) {
-    .containerTemas section {
-        display: flex;
+    .containerTemas ul {
         justify-content:center;
         flex-direction: row;
         flex-wrap: wrap;
     }
     
     .TemaInd{
-        height: 10vh;
+        padding: 50px;
         width: 28%;
         margin: 2vh;
     }

@@ -17,15 +17,15 @@ export default function Temas(){
     }
 
     return (
-        <div className={styles.containerTemas}>
+        <section className={styles.containerTemas}>
             <h2>Temas</h2>
-            <section>
+            <ul>
             {
                 temas.map((n , i) => 
-                <TemaIndividual key={i} tema={n} />
+                    <TemaIndividual key={i} tema={n} />
                 )
             }
-            </section>            
-        </div>
+            </ul>            
+        </section>
     )
 }

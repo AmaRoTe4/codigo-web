@@ -7,10 +7,10 @@ interface Props{
 
 export default function NavBar({title}:Props){
     return (
-        <nav className={styles.bodyNavBar}>
+        <header className={styles.bodyNavBar}>
             <h2>
                 {title}
             </h2>
-        </nav>
+        </header>
     )
 }

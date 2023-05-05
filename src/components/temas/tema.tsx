@@ -19,7 +19,7 @@ export default function TemaIndividual({tema}:Props){
                 links={[tema?.documentacion[0] , tema?.aprender[0]]} 
                 vista={vista}
             />}
-            <article
+            <li
                 //data-aos="fade-right"
                 className={styles.TemaInd} 
                 style={{backgroundColor: `${tema.color}`}}
@@ -28,7 +28,7 @@ export default function TemaIndividual({tema}:Props){
                 <h3>
                     {tema.name}
                 </h3>
-            </article>
+            </li>
         </>
     )
 }

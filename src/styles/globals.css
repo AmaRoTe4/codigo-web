@@ -15,6 +15,7 @@ body {
 
 :root {
     --color-text: rgb(255, 255, 255);
+    --color-fondo: rgb(35, 35, 35);
 }
 
 body::-webkit-scrollbar{
