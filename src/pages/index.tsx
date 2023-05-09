@@ -7,46 +7,51 @@ import NavBar from '@/components/navbar'
 import Temas from '@/components/temas'
 import imagenDesarollador from '/src/static/images/diseno-de-paginas-web.png'
 import FoterMain from '@/components/foterMain'
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import Busquedas from '@/components/busquedas'
-
-const inter = Inter({ subsets: ['latin'] })
+import Encabezado from '@/components/head'
+import InputBuscador from '@/components/inputBusqueda'
+import useScrollTo from '@/hooks/useScrollPosition'
 
 export default function Home() {
   const [textBusqueda, setTextBusqueda] = useState<string>("")
-  const [inicio , setInicio] = useState<boolean>(false);
+  const inicialState = useRef<boolean>(false);
 
   useEffect(() => {
-    if(textBusqueda !== "" && !inicio) setInicio(true);
+    if(!inicialState.current) inicialState.current = true;
   }, [textBusqueda])
+
+  useScrollTo(0 , textBusqueda !== "")
 
   return (
     <>
-      <Head>
-        <title>Codigo Web</title>
-        <meta name="description" content="Página principal de la web, donde podés encontrar un buscador con toda la información y los principales temas abordados" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Head>
+      <Encabezado 
+        description="Página principal de la web, donde podés encontrar un buscador con toda la información y los principales temas abordados"
+      />
       <div className={`${styles.containerIndex} `}>
         <NavBar title="Codigo Web" />
         <main>
-          <h1 className={`${inicio && `${textBusqueda !== '' ? efectos.transitionOcultar : efectos.transitionAparecer}`}`}>
+          <h1 className={`${inicialState.current && `${textBusqueda !== '' ? efectos.transitionOcultar : efectos.transitionAparecer}`}`}>
             Encuentra en nuestra página los enlaces que necesitas para guiarte en la programación web.
           </h1>
         </main>
-        <form className={`${inicio && `${textBusqueda !== '' ? efectos.transitionTop : efectos.transitionBottom}`}`}>
+        <InputBuscador 
+          text={textBusqueda}
+          condition={inicialState.current}
+        >
           <input
-            autoComplete="off"
-            value={textBusqueda}
-            type="search"
-            id="search"
-            name="search"
-            onChange={e => { e.preventDefault(); setTextBusqueda(e.target.value) }}
-          />
-        </form>
+                autoComplete="off"
+                value={textBusqueda}
+                type="search"
+                id="search"
+                name="search"
+                onChange={e => { e.preventDefault(); setTextBusqueda(e.target.value)}}
+            />
+        </InputBuscador>
         <Busquedas text={textBusqueda} />
-        <span className={`${inicio && `${textBusqueda !== '' ? efectos.transitionOcultar : efectos.transitionAparecer}`}`}>
+        <span className={`${inicialState.current && `${textBusqueda !== '' ? efectos.transitionOcultar : efectos.transitionAparecer}`}`}>
           <Image
+            priority={true}
             width={350}
             src={imagenDesarollador}
             alt="diseno-de-paginas-web"

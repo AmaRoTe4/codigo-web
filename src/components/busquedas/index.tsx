@@ -2,7 +2,7 @@ import { LinkIndividual } from '@/types';
 import styles from './styles.module.css';
 import efectos from '../../styles/efectos.module.css';
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Filtro } from '@/functions/filtroDeBusqueda';
 import { todosLosLinksIndividual } from '@/functions/links/todosLosLinks';
 
@@ -13,14 +13,14 @@ interface Props {
 export default function Busquedas({ text }: Props) {
     const [todosLosLinks, setTodosLosLinks] = useState<LinkIndividual[]>([])
     const [linksVista, setLinksVista] = useState<LinkIndividual[]>([])
-    const [inicio, setInicio] = useState<boolean>(false)
+    const inicialState = useRef<boolean>(false);
 
     useEffect(() => {
         obtenerLinks()
     }, [])
     
     useEffect(() => {
-        if (text !== "" && !inicio) setInicio(true);
+        if (!inicialState.current) inicialState.current = true;
         setLinksVista(Filtro(todosLosLinks , text))
     }, [text])
     
@@ -33,7 +33,7 @@ export default function Busquedas({ text }: Props) {
     return (
         <div
             className={`
-                ${inicio && `${text === ''
+                ${inicialState.current && `${text === ''
                     ? `${efectos.transitionOcultar, styles.desaparecerHeight}`
                     : `${efectos.transitionAparecer, styles.aparecerHeight}`
                 }`} 

@@ -22,3 +22,11 @@ export interface LinkIndividual {
   link: string;
   jerarquia: number;
 }
+
+
+export interface Ejes {
+  x: number;
+  y: number;
+}
+
+//export type RetornoUseOverFlow = [ Ejes , (ejes:Ejes) => void ];

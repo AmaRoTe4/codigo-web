@@ -5,7 +5,6 @@ export default function Document() {
     <Html lang="es">
       <Head>
         <link rel="icon" type="image/png" sizes="32x32" href="/buscar.png" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
         <meta charSet="UTF-8" />
         <meta name="description" content="Esta pagina nace con el fin de ayudar a las personas que están dando sus primeros pasos en el mundo de la programación, nos hemos propuesto el objetivo de ofrecer información valiosa y útil para guiarlos en su incursión en el desarrollo web. Nuestros esfuerzos están dirigidos a proporcionar una orientación eficaz y eficiente a nuestros usuarios en su proceso de aprendizaje." />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,14 +13,12 @@ export default function Document() {
 
         <meta property="og:title" content="Codigo Web" />
         <meta property="og:description" content="Esta pagina nace con el fin de ayudar a las personas que están dando sus primeros pasos en el mundo de la programación, nos hemos propuesto el objetivo de ofrecer información valiosa y útil para guiarlos en su incursión en el desarrollo web. Nuestros esfuerzos están dirigidos a proporcionar una orientación eficaz y eficiente a nuestros usuarios en su proceso de aprendizaje." />
-        {/*<meta property="og:image" content="###URL de la imagen para compartir###" />*/}
         <meta property="og:url" content="https://codigo-web-seven.vercel.app/" />
         <meta property="og:type" content="website" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Codigo Web" />
         <meta name="twitter:description" content="Esta pagina nace con el fin de ayudar a las personas que están dando sus primeros pasos en el mundo de la programación, nos hemos propuesto el objetivo de ofrecer información valiosa y útil para guiarlos en su incursión en el desarrollo web. Nuestros esfuerzos están dirigidos a proporcionar una orientación eficaz y eficiente a nuestros usuarios en su proceso de aprendizaje." />
-        {/*<meta name="twitter:image" content="###URL de la imagen para compartir###" />*/}
         <meta name="twitter:url" content="https://codigo-web-seven.vercel.app/" />
 
         <meta name="author" content="Amaro Cattarozzi" />

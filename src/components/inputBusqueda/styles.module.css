@@ -1,0 +1,33 @@
+.formulario {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario input {
+  padding: 0px;
+  margin: 0px;
+  width: 75%;
+  color: white;
+}
+
+@media (min-width: 768px) {
+    .formulario input {
+        width: 80%;
+        height: 8vh;
+    }
+}
+
+.positionFixed{
+    position: fixed;
+    z-index: 10;
+    transition: all 1s ease;
+    background-color: var(--color-form-index) 
+}
+
+.positionFixed input {
+    border-color: white;
+    color:white;
+}

@@ -28,21 +28,6 @@
   font-size: 16px;
 }
 
-.containerIndex form{
-  height: 10vh;
-  width: 100%;
-  display: flex;
-  justify-content:center;
-  align-items:center;
-}
-
-.containerIndex form input{
-  padding: 0px;
-  margin: 0px;
-  width: 75%;
-  color: white;
-}
-
 .containerIndex span{
   display: flex;
   flex-direction: column;
@@ -53,19 +38,26 @@
 
 @media (min-width: 768px) {
   .containerIndex main{
-    height: 25vh;
+    height: 22vh;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
   }
   
   .containerIndex main h1{
     max-width: 85%;
-    font-size: 28px;
+    font-size: 24px;
+    margin: 0px;
+    padding: 0px;
   }
   
   .containerIndex form input{
     width: 80%;
+    height: 8vh;
   }
 
   .containerIndex span{
-    height: 60vh;
+    height: 52vh;
+    margin-bottom: 10vh;
   }
 }

@@ -16,6 +16,8 @@ body {
 :root {
     --color-text: rgb(255, 255, 255);
     --color-fondo: rgb(35, 35, 35);
+    --color-navbar: hsla(0, 0%, 100%, 0.200);
+    --color-form-index: rgb(45 45 45);
 }
 
 body::-webkit-scrollbar{

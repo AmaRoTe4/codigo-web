@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     border-bottom: solid 1px white;
-    background-color: hsla(0, 0%, 100%, 0.200);
+    background-color: var(--color-navbar);
     /*position: fixed;*/
 }
 
@@ -13,5 +13,22 @@
     color: var(--color-text);
     font-size: 20px;
     text-align: center;
+    width: 50%;
 }
 
+.bodyNavBar span{
+    height: 50px;
+    content: "";
+    width: 25%;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 10px; 
+}
+
+.bodyNavBar span a{
+    height: 100%;
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
