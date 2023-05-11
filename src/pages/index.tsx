@@ -29,7 +29,7 @@ export default function Home() {
         description="Página principal de la web, donde podés encontrar un buscador con toda la información y los principales temas abordados"
       />
       <div className={`${styles.containerIndex} `}>
-        <NavBar title="Codigo Web" />
+        <NavBar title="Codigo Web Seven" />
         <main>
           <h1 className={`${inicialState.current && `${textBusqueda !== '' ? efectos.transitionOcultar : efectos.transitionAparecer}`}`}>
             Encuentra en nuestra página los enlaces que necesitas para guiarte en la programación web.

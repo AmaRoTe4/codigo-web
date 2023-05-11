@@ -14,7 +14,7 @@ interface Props{
 export default function Encabezado({title , description}:Props){
     return (
         <Head>
-            <title>{title ? title : "Codigo Web"}</title>
+            <title>{title ? title : "Codigo Web Seven"}</title>
             <meta name="description" content={description ? description :  ""} />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
         </Head>

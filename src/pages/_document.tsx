@@ -8,16 +8,16 @@ export default function Document() {
         <meta charSet="UTF-8" />
         <meta name="description" content="Esta pagina nace con el fin de ayudar a las personas que están dando sus primeros pasos en el mundo de la programación, nos hemos propuesto el objetivo de ofrecer información valiosa y útil para guiarlos en su incursión en el desarrollo web. Nuestros esfuerzos están dirigidos a proporcionar una orientación eficaz y eficiente a nuestros usuarios en su proceso de aprendizaje." />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="keywords" content="codigoweb, programacion web, codigo web, comenzando en la programacion web, principales links para comenzar en la programacion web, informacion valiosa para comenzar en la programacion web, paginas que si o si tengo que conocer para comenzar en la programacion web, paginas que tengo que conocer si soy programador web" />
+        <meta name="keywords" content="codigoweb, programacion web, codigo web Seven, comenzando en la programacion web, principales links para comenzar en la programacion web, informacion valiosa para comenzar en la programacion web, paginas que si o si tengo que conocer para comenzar en la programacion web, paginas que tengo que conocer si soy programador web" />
         <link rel="canonical" href="https://codigo-web-seven.vercel.app/" />
 
-        <meta property="og:title" content="Codigo Web" />
+        <meta property="og:title" content="Codigo Web Seven" />
         <meta property="og:description" content="Esta pagina nace con el fin de ayudar a las personas que están dando sus primeros pasos en el mundo de la programación, nos hemos propuesto el objetivo de ofrecer información valiosa y útil para guiarlos en su incursión en el desarrollo web. Nuestros esfuerzos están dirigidos a proporcionar una orientación eficaz y eficiente a nuestros usuarios en su proceso de aprendizaje." />
         <meta property="og:url" content="https://codigo-web-seven.vercel.app/" />
         <meta property="og:type" content="website" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Codigo Web" />
+        <meta name="twitter:title" content="Codigo Web Seven" />
         <meta name="twitter:description" content="Esta pagina nace con el fin de ayudar a las personas que están dando sus primeros pasos en el mundo de la programación, nos hemos propuesto el objetivo de ofrecer información valiosa y útil para guiarlos en su incursión en el desarrollo web. Nuestros esfuerzos están dirigidos a proporcionar una orientación eficaz y eficiente a nuestros usuarios en su proceso de aprendizaje." />
         <meta name="twitter:url" content="https://codigo-web-seven.vercel.app/" />
 
