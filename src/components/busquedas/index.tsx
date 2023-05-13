@@ -20,7 +20,7 @@ export default function Busquedas({ text }: Props) {
         debounce((busqueda:string) => {
             setLinksVista(Filtro(todosLosLinks, busqueda)) 
         }, 300)
-    , [])
+    , [linksVista]);
 
     useEffect(() => {
         obtenerLinks()

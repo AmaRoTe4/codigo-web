@@ -14,19 +14,7 @@ export default function Create() {
                     location='errores'
                 />
                 
-                {/*<textarea
-                    style={{
-                        border: 'none',
-                        borderRadius: '0',
-                        background: 'white',
-                        resize: 'none',
-                        width: '100%',
-                        height: '200px',
-                        padding: '10px',
-                        fontSize: '14px',
-                        color: 'black',
-                    }}
-                />*/}
+                
 
             </div>
         </>

@@ -1,0 +1,21 @@
+.TextTarea {
+  border-radius: 0;
+  border: none;
+  background-color: white;
+  resize: none;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  font-size: 14px;
+  color: black;
+  text-align: justify;
+}
+
+.TextTarea:disabled {
+  background-color: white;
+  color: black;
+}
+
+.TextTarea::-webkit-scrollbar{
+  display:none;
+}
