@@ -4,9 +4,10 @@ import styles from './styles.module.css'
 interface Props {
     value: string;
     setValue: Dispatch<SetStateAction<string>>
+    placeholder?: string;
 }
 
-export default function TextTarea({ value, setValue }: Props) {
+export default function TextTarea({ value, setValue , placeholder}: Props) {
     const textareaRef = useRef(null);
 
     useEffect(() => {
@@ -26,6 +27,7 @@ export default function TextTarea({ value, setValue }: Props) {
 
     return (
         <textarea
+            placeholder={placeholder}
             ref={textareaRef}
             value={value}
             className={styles.TextTarea}

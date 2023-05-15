@@ -13,30 +13,30 @@
   display: none;
 }
 
-.containerBody{
+.containerBody {
   content: "";
   height: 90vh;
   width: 100vw;
-  display:flex;
+  display: flex;
 }
 
-.containerBody main{
+.containerBody main {
   content: "";
-  background-color:var(--color-fondo);
+  background-color: var(--color-fondo);
   height: 100%;
   width: 100vw;
 }
 
-.containerBody h1{
+.containerBody h1 {
   width: 100%;
   text-align: center;
-  color:white;
+  color: white;
   padding: 0px;
-  margin:0px;
+  margin: 0px;
   margin-top: 2vh;
 }
 
-.containerBody form{
+.containerBody form {
   display: flex;
   height: 12vh;
   width: 86%;
@@ -45,32 +45,32 @@
   margin: 2vh 7% 30px 7%;
 }
 
-.containerBody form input{
+.containerBody form input {
   color: white;
   height: 50px;
   width: 82%;
   margin-right: 3%;
 }
 
-.containerBody form button{
+.containerBody form button {
   height: 50px;
   margin: 0px;
   padding: 15px;
   width: 15%;
-  display:flex;
-  justify-content:center;
-  align-items:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.containerBody ul{
+.containerBody ul {
   margin: 0px;
   padding: 0px;
-  list-style:none ;
+  list-style: none;
   height: 69vh;
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items:center;
+  align-items: center;
   background-color: var(--color-form-index);
   border-top: solid 1px white;
   overflow-y: scroll;
@@ -89,29 +89,29 @@
   background-color: #555;
 }
 
-.containerBody ul li{
-  list-style:none ;
+.containerBody ul li {
+  list-style: none;
   margin: 0px;
   margin: 2vh 0px;
   padding: 0px;
   width: 90%;
 }
 
-.containerBody ul li p{
+.containerBody ul li p {
   margin: 0px;
   padding: 0px;
   color: white;
   font-size: 32;
   width: 100%;
   display: flex;
-  align-items:center;
+  align-items: center;
   margin-bottom: 10px;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
 
-.containerBody ul li article{
+.containerBody ul li article {
   margin: 0px;
   padding: 0px;
   max-height: 130px;
@@ -121,7 +121,7 @@
   flex-direction: column;
 }
 
-.containerBody ul li article h3{
+.containerBody ul li article h3 {
   color: black;
   margin: 5px 10px;
   padding: 0px;
@@ -132,14 +132,14 @@
   text-overflow: ellipsis;
 }
 
-.containerBody ul li article p{
+.containerBody ul li article p {
   color: black;
   border-top: solid 1px black;
   margin: 0px;
   padding: 5px 10px;
   max-width: 100%;
   text-align: justify;
-  display:flex;
+  display: flex;
   align-items: flex-start;
   height: 120px;
   overflow: hidden;
@@ -147,49 +147,48 @@
   text-overflow: ellipsis;
 }
 
-
-@media (min-width: 768px) { 
-  .containerBody ul{
+@media (min-width: 768px) {
+  .containerBody ul {
     height: 62vh;
   }
-  
-  .containerBody ul li article{
+
+  .containerBody ul li article {
     height: 130px;
-    max-height: 130px;  
+    max-height: 130px;
   }
 
-  .containerBody form{
+  .containerBody form {
     justify-content: center;
   }
 
-  .containerBody form button{
+  .containerBody form button {
     width: 50px;
   }
 }
 
 /* pregutnas individuales */
 
-.containerPreguntas{
+.containerPreguntas {
   display: flex;
   flex-direction: column;
   content: "";
-  min-height: 90vh;
+  min-height: 80vh;
   width: 100vw;
   background-color: var(--color-fondo);
   overflow-y: auto;
   overflow-x: hidden;
 }
 
-.containerPreguntas main{
+.containerPreguntas main {
   height: 12vh;
   display: flex;
-  justify-content:Center;
-  align-items:Center;
+  justify-content: Center;
+  align-items: Center;
   margin: 0px;
   padding: 0px;
 }
 
-.containerPreguntas main h1{
+.containerPreguntas main h1 {
   margin: 0px;
   padding: 0px;
   color: white;
@@ -208,24 +207,264 @@
   margin: 0px;
 }
 
-.containerPreguntas article form label{
+.containerPreguntas article form label {
   color: white;
 }
 
-.containerPreguntas article div{
+.containerPreguntas article div {
   margin: 0px;
   display: flex;
   width: 200px;
   height: auto;
 }
 
-.containerPreguntas article div button{
+.containerPreguntas article div button {
   margin: 0px 15px;
-  padding:  0px;
+  padding: 0px;
   width: auto;
   display: flex;
-  justify-content:center;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
   background-color: transparent;
   border: none;
+}
+
+/* create */
+
+.containerCreate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  content: "";
+  min-height: 80vh;
+  width: 100vw;
+  background-color: var(--color-fondo);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.containerCreate main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 12vh;
+  width: 100%;
+  margin: 0px;
+  margin-top: 10px;
+  padding: 0px;
+}
+
+.containerCreate main h1 {
+  text-align: center;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+.containerCreate form {
+  margin: 0px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  min-height: 74vh;
+  height: auto;
+  width: 100%;
+  background-color: var(--color-form-index);
+  border-top: solid 1px white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerCreate form input[type="text"] {
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  padding: 10px;
+  width: 90%;
+  margin: 0px;
+  margin-top: 15px;
+}
+
+.containerCreate form span {
+  color: black;
+  font-size: 16px;
+  width: 90%;
+  margin: 0px;
+  margin-top: 15px;
+}
+
+.containerCreate form div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 70px;
+  margin: 0px;
+  margin-top: 15px;
+}
+
+.containerCreate form div input[type="file"] {
+  width: 70%;
+  margin: 0px;
+  height: 50px;
+}
+
+.containerCreate form div button {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  padding: 10px;
+  background-color: green;
+  border: solid 1px rgb(16, 138, 0);
+}
+
+@media (min-width: 768px) {
+  .containerCreate form input[type="text"] {
+    font-size: 14px;
+    margin-top: 18px;
+    height: 40px;
+  }
+  
+  .containerCreate form span {
+    margin-top: 18px;
+  }
+
+  .containerCreate form div button {
+    width: 150px;
+  }
+}
+
+/* respuestas id */
+
+.containerResponder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  content: "";
+  min-height: 80vh;
+  width: 100vw;
+  background-color: var(--color-fondo);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.containerResponder main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 12vh;
+  width: 100%;
+  margin: 0px;
+  margin-top: 10px;
+  padding: 0px;
+}
+
+.containerResponder main h1 {
+  text-align: center;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+.containerResponder form {
+  margin: 0px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  min-height: 74vh;
+  height: auto;
+  width: 100%;
+  background-color: var(--color-form-index);
+  border-top: solid 1px white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerResponder form input[type="text"] {
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  width: 90%;
+  margin: 0px;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.containerResponder form span {
+  color: black;
+  font-size: 16px;
+  width: 90%;
+  margin: 0px;
+  margin-top: 15px;
+}
+
+.containerResponder form div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 70px;
+  margin: 0px;
+  margin-top: 15px;
+}
+
+.containerResponder form div input[type="file"] {
+  width: 70%;
+  margin: 0px;
+  height: 50px;
+}
+
+.containerResponder form div button {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  padding: 10px;
+  background-color: green;
+  border: solid 1px rgb(16, 138, 0);
+}
+
+@media (min-width: 768px) {
+  .containerResponder form input[type="text"] {
+    font-size: 14px;
+    margin-top: 18px;
+    height: 40px;
+  }
+  
+  .containerResponder form span {
+    margin-top: 18px;
+  }
+
+  .containerResponder form div button {
+    width: 150px;
+  }
+}
+
+/* INPUT TIPE FILE */
+
+.customFileInput {
+  display: none;
+}
+
+.customFileLabel {
+  border: 2px solid #dddddd;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.customFileLabel:hover {
+  background-color: #e0e0e0;
+}
+
+.customFileInput:focus + .customFileLabel {
+  outline: 2px solid #333333;
 }
